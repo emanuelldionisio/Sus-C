@@ -7,10 +7,14 @@
     color: #4B84F1;
 }
 
+label {
+    margin-bottom: 6px;
+}
+
 .login-form-input-div {
     display: flex;
     border-color: #4B84F1;
-    border-width: 2px;
+    border-width: px;
     border-style: solid;
     border-radius: 8px;
     height: 45px;
@@ -20,5 +24,94 @@
 .login-form-div {
     display: flex;
     flex-direction: column;
+    color: #8F9090;
+    font-family: 'Roboto';
+    padding: 0px 18px;
+}
+
+#login-button {
+    font-family: "Roboto";
+    color: white;
+    border: 0px;
+    background-color: #A5C2F8;
+    border-radius: 16px;
+    width: 321px;
+    height: 45px;
+    padding: 15px;
+}
+
+#login-button:hover {
+    background-color: #4B84F1;
+}
+
+#login-form-div-buttom {
+    margin-top: 10px;
+
+}
+
+#login-form {
+    height: auto;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 43px;
+}
+
+#login-header-h2 {
+    width: 274px;
+}
+
+#logo_sus {
+    margin-left: 210px;
+    height: 77px;
+    width: 140px;
+}
+
+#logo_susc {
+    height: 35px;
+    width: 120px;
+}
+
+#login-header-h2 {
+    font-family: "Gotham Black";
+    font-style: italic;
+    font-size: 18px;;
+    color: black;
+}
+
+#logo_gov {
+    height: 56px;
+    width: 170px;
+} 
+
+#login-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 43px;
+}
+
+#show-pswd {
+    outline: 0px;
+    border: none;
+    margin: auto 10px;
+    width: 20px;
+    height: 14px;
+    background-color: white;
+    background-image: url("../imagens/pswd_desmarcado.png");
+    background-size: cover;
 }
 

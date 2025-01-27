@@ -8,32 +8,34 @@
 </head>
 <body id="login-body">
     <header id="login-header">
-        <img src="" alt="logo do sus" id="logo_sus">
-        <h1 id="login-header-h1">SUS-C</h1>
+        <img src="../imagens/susLogo.jpg" alt="logo do sus" id="logo_sus">
+        <img src="../imagens/susCLogo.jpg" id="logo_susc" alt="logo susc">
         <h2 id="login-header-h2">LOGIN PELA SUA CONTA GOV</h1>
     </header>
     <main id="login-main">
         <form id="login-form">
             <div id="login-form-cpf" class="login-form-div">
-                <label>CPF</label>
+                <label>&nbsp;CPF</label>
                 <div class="login-form-input-div">
                     <input class="login-input" id="login-form-input-user" type="tel" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="111.111.111-11" name="user">
                 </div>
             </div>
             
-            <div id="login-form-cpf" class="login-form-div">
-                <label>SENHA</label>
+            <div id="login-form-pswd" class="login-form-div">
+                <label>&nbsp;SENHA</label>
                 <div class="login-form-input-div">
                     <input class="login-input" type="password" placeholder="sua senha" name="senha" id="senha">
-                    <input type="checkbox" id="show-pswd" name="show-pswd" onclick="input_pswd('senha', 'show-pswd')">
+                    <button type="button" id="show-pswd" name="show-pswd" onclick="input_pswd('senha', 'show-pswd')" ></button>
                 </div>
             </div>
 
-            <button>login</button>
+            <div class="login-form-div" id="login-form-div-buttom">
+                <button id="login-button">login</button>
+            </div>
         </form>
     </main>
-    <footer>
-        <img src="" alt="logo do gov">
+    <footer id="login-footer">
+        <img src="../imagens/govLogo.png" alt="logo do gov" id="logo_gov">
     </footer>
 
     <script src="script.js"></script>
