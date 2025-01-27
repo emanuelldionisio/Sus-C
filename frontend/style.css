@@ -1,3 +1,22 @@
+.login-input {
+    border-width: 0px;
+    border-radius: 5px;
+    width: 319px;
+    outline: 0px;
+    padding: 10px;
+    color: #4B84F1;
+}
+
+.login-form-input-div {
+    display: flex;
+    border-color: #4B84F1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    height: 45px;
+    width: 319px;
+}
+
 .login-form-div {
     display: flex;
     flex-direction: column;
