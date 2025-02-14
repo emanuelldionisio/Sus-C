@@ -125,16 +125,3 @@ label {
     justify-content: center;
     
 }
-
-/* Sessão laudos */
-
-#header-laudos {
-    background-color: #2465dd;
-    color: aliceblue;
-}
-
-.registros {
-    background-color: #2465dd;
-    color: aliceblue;
-    border-radius: 8px;
-}
