@@ -184,8 +184,13 @@
     padding: 5px;
 }
 
+@font-face {
+    font-family: "Gotham Black";
+    src: url(../imagens/gotham-black.otf) format("opentype");
+}
+
 #tipo-consulta {
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Gotham Black";
     text-align: center;
 }
@@ -228,6 +233,7 @@
 .info-laudos {
     font-size: 18px;
     text-align: center;
+    font-family: "Gotham Black";
 }
 
 /* seção pag inicial */
