@@ -232,7 +232,7 @@
 /* seção pag inicial */
 
 #body-inicial {
-    font-family: Arial, sans-serif;
+    font-family: "Gotham Black";
     margin: 0;
     padding: 0;
     display: flex;
@@ -282,6 +282,7 @@
 
 .unidades-proximas {
     padding: 80px 110px;
+    font-family: "Gotham Black";
     font-size: 26px;
     background-color: #1863ede3;
     color: #fff;
@@ -310,6 +311,7 @@
 .bottom-buttons button {
     padding: 60px 70px;
     font-size: 20px;
+    font-family: "Gotham Black";
     text-align: center;
     justify-content: center;
     background-color: #1863ede3;
