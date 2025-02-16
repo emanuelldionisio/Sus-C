@@ -16,22 +16,22 @@
     <main id="login-main">
         <form id="login-form">
             <div id="login-form-cpf" class="login-form-div">
-                <label>&nbsp;CPF</label>
+                <label for="user">&nbsp;CPF</label>
                 <div class="login-form-input-div">
-                    <input class="login-input" id="login-form-input-user" type="tel" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="111.111.111-11" name="user">
+                    <input class="login-input" id="user" type="tel" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" placeholder="111.111.111-11" name="user">
                 </div>
             </div>
             
             <div id="login-form-pswd" class="login-form-div">
-                <label>&nbsp;SENHA</label>
+                <label for="senha">&nbsp;SENHA</label>
                 <div class="login-form-input-div">
                     <input class="login-input" type="password" placeholder="sua senha" name="senha" id="senha">
-                    <button type="button" id="show-pswd" name="show-pswd" onclick="input_pswd('senha', 'show-pswd')" ></button>
+                    <button  type="button" id="show-pswd" name="show-pswd" onclick="input_pswd('senha', 'show-pswd')" ></button>
                 </div>
             </div>
 
             <div class="login-form-div" id="login-form-div-buttom">
-                <button id="login-button">login</button>
+                <input type="submit" id="login-button" onclick="gotoMenu()" value="login">
             </div>
         </form>
     </main>
@@ -40,5 +40,7 @@
     </footer>
 
     <script src="script.js"></script>
+
+    
 </body>
 </html>
