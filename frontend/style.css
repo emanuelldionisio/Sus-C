@@ -353,7 +353,7 @@
     max-width: 200px;
 }
         /*SEÇÃO LAUDOSDETALHADOS */
-        body {
+        #laudos-detalhados-body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #2652a9;
             margin: 0;
