@@ -8,11 +8,6 @@
 #container1{
     display:flex;
 }
-#mapas-esquerda{
-    width=100% 
-    height="600"; 
-    style="border:0;"
-}
 .mapa-linha-vertical {
     width: 1px; /* Espessura da linha */
     height: 100vh; /* Altura total da tela */
@@ -21,12 +16,3 @@
     left: 50%; /* Centraliza a linha na tela */
 }
 
-.caixa-texto {
-    width: 300px; /* Largura da caixa */
-    padding: 15px; /* Espaçamento interno */
-    border: 2px solid black; /* Borda de 2px */
-    background-color: lightgray; /* Cor de fundo */
-    color: black; /* Cor do texto */
-    border-radius: 10px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho do texto */
-}
