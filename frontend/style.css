@@ -176,11 +176,12 @@
 .registros {
     background-color: #1863ede3;
     color: aliceblue;
-    width: 250px;
+    width: 550px;
     max-width: 280px;
     height: 350px;
     font-size: 20px;
     border-radius: 10px;
+    padding: 5px;
 }
 
 #tipo-consulta {
@@ -243,34 +244,34 @@
     background-color: #fff;
 }
 
-.header-top {
-    background-color: #1863ede3;
-    padding: 1px 0;
-    width: 100%;
-    height: 10%
-}
-
 #header-inicial {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 10%;
+    background-color: #1863ede3;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.header-images img {
+#logosus {
+    align-self: flex-start;
     height: 50px;
-    margin-right: 10px;
     gap: 20px;
 }
 
-.login-link img {
+#logogov {
+    align-self: flex-start;
     height: 50px;
+    gap: 20px;
+}
+ 
+#perfil-foto {
+    height: 50px;
+    align-self: flex-end;
     cursor: pointer;
-    gap: 20px;
-}
-
+}    
+ 
 #main-inicial {
     display: flex;
     flex-direction: column;
@@ -311,7 +312,7 @@
     padding: 60px 70px;
     font-size: 20px;
     text-align: center;
-    align-content: center;
+    justify-content: center;
     background-color: #1863ede3;
     color: #fff;
     border: none;
