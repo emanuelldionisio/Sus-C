@@ -275,6 +275,8 @@
 }
 .header-images {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 #logosus {
     align-self: flex-start;
@@ -292,8 +294,8 @@
  
 #perfil-foto {
     height: 50px;
-    flex-direction: row-reverse;
-    align-self: flex-start;
+    margin-left: 450px;
+    position: absolute;
     cursor: pointer;
 }    
  
