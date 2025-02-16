@@ -176,15 +176,21 @@
 .registros {
     background-color: #1863ede3;
     color: aliceblue;
-    width: 250px;
+    width: 550px;
     max-width: 280px;
     height: 350px;
     font-size: 20px;
     border-radius: 10px;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url(../imagens/gotham-black.otf) format("opentype");
 }
 
 #tipo-consulta {
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Gotham Black";
     text-align: center;
 }
@@ -227,6 +233,7 @@
 .info-laudos {
     font-size: 18px;
     text-align: center;
+    font-family: "Gotham Black";
 }
 
 /* seção pag inicial */
