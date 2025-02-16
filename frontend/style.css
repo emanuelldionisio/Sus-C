@@ -176,11 +176,12 @@
 .registros {
     background-color: #1863ede3;
     color: aliceblue;
-    width: 250px;
+    width: 550px;
     max-width: 280px;
     height: 350px;
     font-size: 20px;
     border-radius: 10px;
+    padding: 5px;
 }
 
 #tipo-consulta {
