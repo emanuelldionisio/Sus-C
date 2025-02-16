@@ -1,23 +1,26 @@
-#container1{
-    display:flex;
-}
-
 #mapas-header1{
     background-color: blue;
 }
+#mapas-body{
+    max-width: ;
+    background-color: rgba(240, 248, 255, 0.74)
+}
+#container1{
+    display:flex;
+}
 #mapas-esquerda{
     width=100% 
-    height="450" 
+    height="600"; 
     style="border:0;"
 }
 .mapa-linha-vertical {
-    width: 1px; /* Define a espessura da linha */
+    width: 1px; /* Espessura da linha */
     height: 100vh; /* Altura total da tela */
-    background-color: black; /* Cor da linha */
+    background-color: lightgray; /* Cor da linha */
     position: absolute;
     left: 50%; /* Centraliza a linha na tela */
-    top: 0;
 }
+
 .caixa-texto {
     width: 300px; /* Largura da caixa */
     padding: 15px; /* Espaçamento interno */
@@ -26,8 +29,4 @@
     color: black; /* Cor do texto */
     border-radius: 10px; /* Bordas arredondadas */
     font-size: 16px; /* Tamanho do texto */
-}
-#mapas-body{
-    max-width: ;
-    background-color: rgba(240, 248, 255, 0.74)
 }
