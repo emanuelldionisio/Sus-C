@@ -7,7 +7,7 @@
     color: #4B84F1;
 }
 
-label {
+.login-form-div label {
     margin-bottom: 6px;
 }
 
@@ -58,15 +58,23 @@ label {
 }
 
 #login-body {
+    margin: auto;
     display: flex;
+    height: 100%;
+    max-height: 500px;
+    width: 90%;
+    min-width: 360px;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
 
 #login-header {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     padding: 0 43px;
 }
 
@@ -75,7 +83,7 @@ label {
 }
 
 #logo_sus {
-    margin-left: 210px;
+    align-self: flex-end;
     height: 77px;
     width: 140px;
 }
@@ -128,7 +136,7 @@ label {
 
 /* Seção laudos */
 
-html, #body-laudos  { 
+#body-laudos  { 
     margin: 0;
     padding: 0;
     width: 100%;
