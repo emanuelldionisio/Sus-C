@@ -7,7 +7,7 @@
     color: #4B84F1;
 }
 
-label {
+.login-form-div label {
     margin-bottom: 6px;
 }
 
@@ -50,7 +50,7 @@ label {
 }
 
 #login-form {
-    height: auto;
+    height: 250px;
     display: flex;
     gap: 16px;
     flex-direction: column;
@@ -58,12 +58,20 @@ label {
 }
 
 #login-body {
+    margin: auto;
     display: flex;
+    height: 100%;
+    max-height: 500px;
+    width: 90%;
+    min-width: 360px;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
 
 #login-header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,12 +83,13 @@ label {
 }
 
 #logo_sus {
-    margin-left: 210px;
+    align-self: flex-end;
     height: 77px;
     width: 140px;
 }
 
 #logo_susc {
+    margin-top: 5%;
     height: 35px;
     width: 120px;
 }
@@ -88,14 +97,15 @@ label {
 #login-header-h2 {
     font-family: "Gotham Black";
     font-style: italic;
-    font-size: 18px;;
+    font-size: 18px;
+    ;
     color: black;
 }
 
 #logo_gov {
     height: 56px;
     width: 170px;
-} 
+}
 
 #login-footer {
     display: flex;
@@ -128,7 +138,7 @@ label {
 
 /* Seção laudos */
 
-html, #body-laudos  { 
+#body-laudos {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -167,7 +177,7 @@ html, #body-laudos  {
     background-color: #1863ede3;
     color: aliceblue;
     width: 250px;
-    max-width: 300px;
+    max-width: 280px;
     height: 350px;
     font-size: 20px;
     border-radius: 10px;
@@ -213,6 +223,12 @@ html, #body-laudos  {
     left: 990px;
     bottom: 150px;
 }
+
+.info-laudos {
+    font-size: 18px;
+    text-align: center;
+}
+
 /* seção pag inicial */
 
 #body-inicial {
@@ -224,7 +240,14 @@ html, #body-laudos  {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #fff;
+}
+
+.header-top {
+    background-color: #1863ede3;
+    padding: 1px 0;
+    width: 100%;
+    height: 10%
 }
 
 #header-inicial {
@@ -233,20 +256,19 @@ html, #body-laudos  {
     align-items: center;
     width: 100%;
     padding: 10px 20px;
-    background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-images img {
     height: 50px;
     margin-right: 10px;
-    float: inline-start;
+    gap: 20px;
 }
 
 .login-link img {
-    height: 40px;
+    height: 50px;
     cursor: pointer;
-    float: inline-end;
+    gap: 20px;
 }
 
 #main-inicial {
@@ -286,10 +308,11 @@ html, #body-laudos  {
 }
 
 .bottom-buttons button {
-    padding: 50px 80px;
+    padding: 60px 70px;
     font-size: 20px;
+    text-align: center;
     align-content: center;
-    background-color: #1863ede3; 
+    background-color: #1863ede3;
     color: #fff;
     border: none;
     border-radius: 25px;

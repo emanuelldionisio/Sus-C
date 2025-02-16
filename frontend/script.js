@@ -12,3 +12,7 @@ function input_pswd(id_input, id_img) {
     
     return;
 }
+
+function gotoMenu() {
+    window.location.href = "menu.html";
+}
