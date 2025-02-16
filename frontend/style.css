@@ -175,7 +175,7 @@
     background-color: #1863ede3;
     color: aliceblue;
     width: 250px;
-    max-width: 300px;
+    max-width: 280px;
     height: 350px;
     font-size: 20px;
     border-radius: 10px;
@@ -220,6 +220,11 @@
     position: absolute;
     left: 990px;
     bottom: 150px;
+}
+
+.info-laudos {
+    font-size: 18px;
+    text-align: center;
 }
 /* seção pag inicial */
 
