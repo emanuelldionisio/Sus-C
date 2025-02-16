@@ -260,16 +260,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#suslogo {
-    align-self:flex-start;
-    height: 50px;
-    gap: 20px;
-}
-
-#govlogo {
+.header-images {
     align-self: flex-start;
-    height: 50px;
-    gap: 2opx;
+    gap: 20px;
 }
 
 .login-link img {
