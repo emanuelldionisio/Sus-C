@@ -253,18 +253,24 @@
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.header-images {
+logosus {
     align-self: flex-start;
+    height: 50px;
+    gap: 20px;
+}
+
+#logogov {
+    align-self: flex-start;
+    height: 50px;
     gap: 20px;
 }
  
 #perfil-foto {
     height: 50px;
+    align-self: flex-end;
     cursor: pointer;
-    gap: 20px;
-}
-
+}    
+ 
 #main-inicial {
     display: flex;
     flex-direction: column;
