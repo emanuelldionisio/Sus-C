@@ -292,6 +292,8 @@
     font-family: "Gotham Black";
     font-size: 26px;
     background-color: #1863ede3;
+    justify-content: center;
+    text-align: center;
     color: #fff;
     border: none;
     border-radius: 25px;
