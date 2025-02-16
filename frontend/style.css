@@ -95,10 +95,13 @@
 }
 
 #login-header-h2 {
+    width: 300px;
+    text-align: center;
     font-family: "Gotham Black";
     font-style: italic;
+    font-weight: 1;
     font-size: 18px;
-    ;
+    
     color: black;
 }
 
@@ -176,15 +179,21 @@
 .registros {
     background-color: #1863ede3;
     color: aliceblue;
-    width: 250px;
+    width: 550px;
     max-width: 280px;
     height: 350px;
     font-size: 20px;
     border-radius: 10px;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url(../imagens/gotham-black.otf) format("opentype");
 }
 
 #tipo-consulta {
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Gotham Black";
     text-align: center;
 }
@@ -213,26 +222,37 @@
 }
 
 #linha1 {
+    width: 2px; /* Espessura da linha */
+    height: 70vh; /* Altura total da tela */
+    background-color: lightgray; /* Cor da linha */
     position: absolute;
-    left: 530px;
-    bottom: 150px;
+    left: 550px;
+    bottom: 40px;
 }
 
 #linha2 {
+    width: 2px; /* Espessura da linha */
+    height: 70vh; /* Altura total da tela */
+    background-color: lightgray; /* Cor da linha */
     position: absolute;
-    left: 990px;
-    bottom: 150px;
+    left: 1010px;
+    bottom: 40px;
 }
 
 .info-laudos {
     font-size: 18px;
     text-align: center;
+    font-family: "Gotham Black";
+}
+
+.laudos-detalhados-link {
+    color: #fff;
 }
 
 /* seção pag inicial */
 
 #body-inicial {
-    font-family: Arial, sans-serif;
+    font-family: "Gotham Black";
     margin: 0;
     padding: 0;
     display: flex;
@@ -243,34 +263,42 @@
     background-color: #fff;
 }
 
-.header-top {
-    background-color: #1863ede3;
-    padding: 1px 0;
-    width: 100%;
-    height: 10%
-}
-
 #header-inicial {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 10%;
+    background-color: #1863ede3;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.header-images img {
+.header-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#logosus {
+    align-self: flex-start;
+    flex-direction: row;
     height: 50px;
-    margin-right: 10px;
     gap: 20px;
 }
 
-.login-link img {
+#logogov {
+    align-self: flex-start;
+    flex-direction: row;
     height: 50px;
+    gap: 20px;
+}
+ 
+#perfil-foto {
+    height: 50px;
+    margin-left: 450px;
+    position: absolute;
     cursor: pointer;
-    gap: 20px;
-}
-
+}    
+ 
 #main-inicial {
     display: flex;
     flex-direction: column;
@@ -282,8 +310,11 @@
 
 .unidades-proximas {
     padding: 80px 110px;
+    font-family: "Gotham Black";
     font-size: 26px;
     background-color: #1863ede3;
+    justify-content: center;
+    text-align: center;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -310,8 +341,9 @@
 .bottom-buttons button {
     padding: 60px 70px;
     font-size: 20px;
+    font-family: "Gotham Black";
     text-align: center;
-    align-content: center;
+    justify-content: center;
     background-color: #1863ede3;
     color: #fff;
     border: none;
@@ -320,3 +352,89 @@
     flex: 1;
     max-width: 200px;
 }
+        /*SEÇÃO LAUDOSDETALHADOS */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #2652a9;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .meio {
+            background: white;
+            padding: 0; 
+            border-radius: 10px;
+            width: 70%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .barra-superior {
+            background: #4B84F1;
+            padding: 15px;
+            border-radius: 10px 10px 0 0; 
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .conteudo {
+            display: flex;
+            flex: 1;
+            justify-content: center; 
+            align-items: flex-start; 
+            padding-top: 20px; 
+        }
+        .especi {
+            text-align: left;
+            flex: 1;
+            padding: 20px;
+            font-size: 22px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .especi h3 {
+            font-size: 32px;
+            color: #0277bd;
+            margin-bottom: 10px;
+        }
+        .especi p {
+            margin: 0;
+            line-height: 1.6;
+        }
+        .anexos {
+            text-align: center;
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .anexos h4 {
+            font-size: 26px;
+            color: #4B84F1;
+            margin-bottom: 20px;
+        }
+        .anexos a {
+            display: block;
+            margin: 12px 0;
+            padding: 12px;
+            background: #4B84F1;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            text-align: center;
+            transition: 0.3s;
+            width: 80%;
+        }
+        .anexos a:hover {
+            background: #1e88e5;
+        }
+    
