@@ -95,10 +95,13 @@
 }
 
 #login-header-h2 {
+    width: 300px;
+    text-align: center;
     font-family: "Gotham Black";
     font-style: italic;
+    font-weight: 1;
     font-size: 18px;
-    ;
+    
     color: black;
 }
 
