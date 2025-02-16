@@ -50,7 +50,7 @@
 }
 
 #login-form {
-    height: auto;
+    height: 250px;
     display: flex;
     gap: 16px;
     flex-direction: column;
@@ -244,35 +244,34 @@
     background-color: #fff;
 }
 
-.header-top {
-    background-color: #1863ede3;
-    padding: 1px 0;
-    width: 100%;
-    height: 10%
-}
-
 #header-inicial {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 10%;
-    color: #1863ede3;
+    background-color: #1863ede3;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.header-images {
+#logosus {
     align-self: flex-start;
+    height: 50px;
     gap: 20px;
 }
 
-.login-link img {
+#logogov {
+    align-self: flex-start;
+    height: 50px;
+    gap: 20px;
+}
+ 
+#perfil-foto {
     height: 50px;
     align-self: flex-end;
     cursor: pointer;
-    gap: 20px;
-}
-
+}    
+ 
 #main-inicial {
     display: flex;
     flex-direction: column;
@@ -310,10 +309,10 @@
 }
 
 .bottom-buttons button {
-    padding: 70px 100px;
+    padding: 60px 70px;
     font-size: 20px;
+    text-align: center;
     justify-content: center;
-    align-content: center;
     background-color: #1863ede3;
     color: #fff;
     border: none;
