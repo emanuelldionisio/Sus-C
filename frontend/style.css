@@ -74,7 +74,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     padding: 0 43px;
 }
 
@@ -89,6 +89,7 @@
 }
 
 #logo_susc {
+    margin-top: 5%;
     height: 35px;
     width: 120px;
 }
@@ -96,14 +97,15 @@
 #login-header-h2 {
     font-family: "Gotham Black";
     font-style: italic;
-    font-size: 18px;;
+    font-size: 18px;
+    ;
     color: black;
 }
 
 #logo_gov {
     height: 56px;
     width: 170px;
-} 
+}
 
 #login-footer {
     display: flex;
@@ -136,7 +138,7 @@
 
 /* Seção laudos */
 
-#body-laudos  { 
+#body-laudos {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -226,6 +228,7 @@
     font-size: 18px;
     text-align: center;
 }
+
 /* seção pag inicial */
 
 #body-inicial {
@@ -237,7 +240,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color:#fff; 
+    background-color: #fff;
 }
 
 .header-top {
@@ -309,7 +312,7 @@
     font-size: 20px;
     text-align: center;
     align-content: center;
-    background-color: #1863ede3; 
+    background-color: #1863ede3;
     color: #fff;
     border: none;
     border-radius: 25px;
