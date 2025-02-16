@@ -261,16 +261,15 @@
 }
 
 #suslogo {
-    align-self: flex-start;
+    align-self:flex-start;
     height: 50px;
-    width: 50px;
-
+    gap: 20px;
 }
 
 #govlogo {
     align-self: flex-start;
     height: 50px;
-    width: 50px;
+    gap: 2opx;
 }
 
 .login-link img {
