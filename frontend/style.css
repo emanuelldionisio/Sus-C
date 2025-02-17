@@ -249,6 +249,21 @@
     color: #fff;
 }
 
+.imagens-laudos {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.imagens-laudos #logo-laudos {
+    width: 30px;
+    height: 30px;
+}
+
+.imagens-laudos #simb-perfil {
+    width: 60px;
+    height: 60px;
+}
 /* seção pag inicial */
 
 #body-inicial {
@@ -351,6 +366,11 @@
     cursor: pointer;
     flex: 1;
     max-width: 200px;
+}
+
+#h2-menu {
+    color: #fff;
+    padding-left: 10px;
 }
         /*SEÇÃO LAUDOSDETALHADOS */
         #laudos-detalhados-body {
