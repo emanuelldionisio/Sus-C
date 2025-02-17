@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Gotham Black";
+    src: url(../imagens/gotham-black.otf) format("opentype");
+}
+
 .login-input {
     border-width: 0px;
     border-radius: 5px;
@@ -185,11 +190,6 @@
     font-size: 20px;
     border-radius: 10px;
     padding: 5px;
-}
-
-@font-face {
-    font-family: "Gotham Black";
-    src: url(../imagens/gotham-black.otf) format("opentype");
 }
 
 #tipo-consulta {
